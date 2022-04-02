@@ -1,4 +1,5 @@
-cachedir="$HOME/testing/news"
+mkdir $HOME/news
+cachedir="$HOME/news"
 city=$(printf "%s" "$*")
 menu="fzf --reverse"
 export FZF_DEFAULT_OPTS=$FZF_DEFAULT_OPTS' --color=fg:#f77e7e,bg:#292323,hl:#4cdb85 --color=fg+:#d0d0d0,bg+:#262626,hl+:#5fd7ff --color=info:#afaf87,prompt:#d7005f,pointer:#af5fff --color=marker:#87ff00,spinner:#af5fff,header:#87afaf'
